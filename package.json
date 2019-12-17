@@ -1,0 +1,24 @@
+{
+  "name": "minutes-importer",
+  "version": "0.0.1",
+  "description": "import markdown meeting minutes to sonar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mororor/minutes-importer.git"
+  },
+  "author": "mororor",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mororor/minutes-importer/issues"
+  },
+  "homepage": "https://github.com/mororor/minutes-importer#readme",
+  "dependencies": {
+    "@arso-project/sonar-client": "^0.1.4",
+    "datetime": "0.0.3",
+    "yargs": "^15.0.2"
+  }
+}
